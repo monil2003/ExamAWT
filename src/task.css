@@ -1,0 +1,74 @@
+body {
+    background-color: #000; /* black background */
+    color: #fff; /* white text */
+  }
+  
+  .task-list {
+    list-style: none;
+    padding: 0;
+    margin: 10px;
+  }
+  
+  .task-list li {
+    border: 1px solid #fff; /* white border */
+    border-radius: 10px; /* rounded border */
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .task-list li span {
+    text-decoration: none;
+  }
+  
+  .task-list li span.completed {
+    text-decoration: line-through;
+  }
+  
+  .button {
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  .button.complete {
+    background-color: #007bff; /* blue Complete button */
+    color: #fff;
+  }
+  
+  .button.cancel {
+    background-color: #ff0000; /* red Cancel button */
+    color: #fff;
+    width: 20px;
+    height: 20px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 0px;
+    cursor: pointer;
+    padding: 0;
+  }
+  
+  .button.cancel img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .button:hover {
+    opacity: 0.8;
+  }
+
+  .ip {
+    width: 80%;
+    height:25px;
+  }
+
+  .ip:hover {
+    opacity: 0.8;
+  }
+
+  .if {
+    width: 50px;
+  }
